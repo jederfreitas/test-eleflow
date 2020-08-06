@@ -31,7 +31,7 @@ Para realizar os testes das API's basta acessar http://localhost:8080/swagger.ht
 
     /swapi​/name​/{name}
 
-**Consultar todos os planetas de forma pagainda na API externa swapi:**
+**Consultar todos os planetas de forma paginada na API externa swapi:**
     
     ​/swapi​/page​/{page}
 
