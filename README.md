@@ -9,6 +9,8 @@ Este projeto foi desenvolvido utilizando a seguintes stack:
 - **Mongodb embedded** 
 - **Gradle**
 
+Basicamente 70% do código foi coberto com teste unitário.
+
 Para facilitar os testes, foi adotado o banco de dados NoSQL MongoDB  embedded , portanto não será necessário realizar nenhuma instação ou configuração adicional, uma vez que ao iniciar a aplicação o serviço é automaticamente baixado, configurado e inicializado com a aplicação.
 
 Para realizar os testes das API's basta acessar http://localhost:8080/swagger.html
