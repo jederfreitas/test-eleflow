@@ -65,7 +65,7 @@ public class PlanetControllerTest {
 			.when(service.save(planetDto)).thenReturn(Mono.just(planetEntity));
 		
 		webClient.post()
-				.uri("/planets/create")
+				.uri("/planets")
 				.contentType(MediaType.APPLICATION_JSON)
 				.body(BodyInserters.fromValue(planetEntity))
 				.exchange()
